@@ -34,18 +34,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.logo {
-  width: 145px;
-  height: 31px;
-  color: #000000;
-  font-family: "Raleway";
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.header__logo {
+  margin-right: 93px;
 }
-.logo__piece {
+.logo {
   color: var(--second-main-text-color);
   font-family: "Raleway";
   text-decoration: none;
@@ -54,10 +46,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo--top {
-  margin-right: 93px;
+.logo__piece {
+  color: var(--main-text-color);
 }
-.logo__piece--bottom {
+.logo__piece--reverse {
   color: var(--acent-color-text);
 }
 .nav-list {
