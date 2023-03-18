@@ -63,55 +63,55 @@
     <main>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button type="button" class="close-btn" data-modal-close>
+          <button type="button" class="modal__close-btn" data-modal-close>
             <svg width="18px" height="18px">
               <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
           </button>
-          <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
-          <form class="modal-form" name="name-1" autocomplete="off">
-            <label class="modal-form__label" for="user-name">Imię</label>
-            <div class="modal-form__item">
-              <svg class="modal-form__icon">
+          <h3 class="modal__title">Zostaw swoje dane w formularzu poniżej</h3>
+          <form class="modal__form" name="name-1" autocomplete="off">
+            <label class="modal__label" for="user-name">Imię</label>
+            <div class="modal__item">
+              <svg class="modal__icon">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
               <input
-                class="modal-form__input"
+                class="modal__input"
                 type="text"
                 name="name"
                 id="user-name"
                 required
               />
             </div>
-            <label class="modal-form__label" for="phone-number">Telefon</label>
-            <div class="modal-form__item">
-              <svg class="modal-form__icon">
+            <label class="modal__label" for="phone-number">Telefon</label>
+            <div class="modal__item">
+              <svg class="modal__icon">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
               <input
-                class="modal-form__input"
+                class="modal__input"
                 type="tel"
                 name="phone"
                 id="phone-number"
                 required
               />
             </div>
-            <label class="modal-form__label" for="email-name">Email</label>
-            <div class="modal-form__item">
-              <svg class="modal-form__icon">
+            <label class="modal__label" for="email-name">Email</label>
+            <div class="modal__item">
+              <svg class="modal__icon">
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
               <input
-                class="modal-form__input"
+                class="modal__input"
                 type="email"
                 name="mail"
                 id="email-name"
                 required
               />
             </div>
-            <label class="modal-form__label" for="comment">Komenatrz</label>
+            <label class="modal__label" for="comment">Komenatrz</label>
             <textarea
-              class="comment-area"
+              class="modal__comment"
               type="text"
               name="comment"
               id="comment"
@@ -131,15 +131,17 @@
               <svg class="icon-checkbox-2">
                 <use href="./images/icons.svg#icon-Vector-1"></use>
               </svg>
-              <p class="statement-text">
+              <p class="modal__statement">
                 Oświadczam iż akceptuję
-                <span class="statement-text-accent">Regulamin</span> i
-                <span class="statement-text-accent">Politykę Prywatności.</span>
+                <span class="modal__statement-accent">Regulamin</span> i
+                <span class="modal__statement-accent"
+                  >Politykę Prywatności.</span
+                >
               </p>
             </label>
 
             <button class="main-btn main-btn--modal" type="submit">
-              Wyślij
+              <span class="main-btn_text">Wyślij</span>
             </button>
           </form>
         </div>
@@ -153,54 +155,54 @@
         </div>
       </div>
       <div class="container">
-        <ul class="list-rectangles">
-          <li class="rectangle">
-            <svg class="rectangle-1">
+        <ul class="rectangles">
+          <li class="rectangles__item">
+            <svg class="rectangles__1">
               <use href="images/icons.svg#icon-antenna-1"></use>
             </svg>
           </li>
-          <li class="rectangle">
-            <svg class="rectangle-2">
+          <li class="rectangles__item">
+            <svg class="rectangles__2">
               <use href="images/icons.svg#icon-clock-1"></use>
             </svg>
           </li>
-          <li class="rectangle">
-            <svg class="rectangle-3">
+          <li class="rectangles__item">
+            <svg class="rectangles__3">
               <use href="images/icons.svg#icon-diagram-1"></use>
             </svg>
           </li>
-          <li class="rectangle">
-            <svg class="rectangle-4">
+          <li class="rectangles__item">
+            <svg class="rectangles__4">
               <use href="images/icons.svg#icon-astronaut-1"></use>
             </svg>
           </li>
         </ul>
-        <ul class="list-lorems">
-          <li class="list-lorems__h">
+        <ul class="lorems">
+          <li class="lorems__h">
             LOREM IPSUM
-            <p class="list-lorems__text">
+            <p class="lorems__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="list-lorems__h">
+          <li class="lorems__h">
             LOREM IPSUM
-            <p class="list-lorems__text">
+            <p class="lorems__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="list-lorems__h">
+          <li class="lorems__h">
             LOREM IPSUM
-            <p class="list-lorems__text">
+            <p class="lorems__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="list-lorems__h">
+          <li class="lorems__h">
             LOREM IPSUM
 
-            <p class="list-lorems__text">
+            <p class="lorems__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>

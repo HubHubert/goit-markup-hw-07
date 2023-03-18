@@ -1,2 +1,12 @@
-@use "./utils/vars";
-@use "./components/header";
+@import "./utils/vars";
+@import "./components/header";
+@import "./components/modal";
+@import "./components/buttons";
+@import "./components/main-image-container";
+@import "./components/lorems";
+@import "./components/whatwedo";
+@import "./components/ourteam";
+
+body {
+  font-family: $font-family;
+}

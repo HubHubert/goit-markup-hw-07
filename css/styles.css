@@ -206,7 +206,7 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
-.close-btn {
+.modal__close-btn {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -219,7 +219,7 @@ body {
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -228,7 +228,7 @@ body {
   color: var(--main-text-color);
   margin-top: 40px;
 }
-.modal-form__label {
+.modal__label {
   display: flex;
   flex-direction: column;
   font-weight: 400;
@@ -240,7 +240,7 @@ body {
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form__item {
+.modal__item {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -253,18 +253,18 @@ body {
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form__item:focus-within,
-.modal-form__item:hover {
+.modal__item:focus-within,
+.modal__item:hover {
   fill: var(--second-main-text-color);
   border: 1px solid var(--second-main-text-color);
 }
-.modal-form__icon {
+.modal__icon {
   width: 18px;
   height: 18px;
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form__input {
+.modal__input {
   width: 380px;
   height: 20px;
   margin-left: 15px;
@@ -274,7 +274,7 @@ body {
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.comment-area {
+.modal__comment {
   resize: none;
   width: 448px;
   height: 120px;
@@ -287,8 +287,8 @@ body {
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.comment-area:focus,
-.comment-area:hover {
+.modal__comment:focus,
+.modal__comment:hover {
   border: 1px solid var(--second-main-text-color);
 }
 
@@ -329,7 +329,7 @@ body {
   top: 10%;
   left: 0;
 }
-.statement-text {
+.modal__statement {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -338,7 +338,7 @@ body {
   white-space: nowrap;
   margin: 0px 0px 0px 23px;
 }
-.statement-text-accent {
+.modal__statement-accent {
   color: var(--second-main-text-color);
   text-decoration: underline;
 }
@@ -388,14 +388,14 @@ body {
   text-align: center;
   white-space: nowrap;
 }
-.list-rectangles {
+.rectangles {
   list-style-type: none;
   display: flex;
   margin-top: 94px;
   margin-bottom: 30px;
   padding: 0px;
 }
-.rectangle {
+.rectangles__item {
   width: 270px;
   height: 120px;
   background-color: var(--team-container-color-background);
@@ -405,31 +405,31 @@ body {
   margin-right: 30px;
 }
 
-.rectangle-1 {
+.rectangles__1 {
   margin-top: 25px;
   width: 65.32px;
   height: 70px;
 }
 
-.rectangle-2 {
+.rectangles__2 {
   margin-top: 25px;
   width: 66.96px;
   height: 70px;
 }
 
-.rectangle-3 {
+.rectangles__3 {
   margin-top: 33.2px;
   width: 70px;
   height: 53.69px;
 }
 
-.rectangle-4 {
+.rectangles__4 {
   margin-top: 30.23px;
   width: 54.83px;
   height: 60.66px;
 }
 
-.list-lorems {
+.lorems {
   width: 1200px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -437,7 +437,7 @@ body {
   display: flex;
 }
 
-.list-lorems__h {
+.lorems__h {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -449,10 +449,10 @@ body {
   height: auto;
   text-align: left;
 }
-.list-lorems__h:not(:last-child) {
+.lorems__h:not(:last-child) {
   margin-right: 30px;
 }
-.list-lorems__text {
+.lorems__text {
   list-style-type: none;
   font-weight: 400;
   font-size: 14px;
@@ -462,7 +462,7 @@ body {
   color: var(--third-main-text-color);
   margin: 10px 0px 0px 0px;
 }
-.list-lorems__text:not(:last-child) {
+.lorems__text:not(:last-child) {
   margin-right: 30px;
 }
 .secondary-h {
