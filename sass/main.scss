@@ -8,7 +8,14 @@
 @import "./components/ourteam";
 @import "./components/customers";
 @import "./components/footer";
+@import "./components/portfolio-btns";
+@import "./components/portfolio-grid";
 
 body {
   font-family: $font-family;
+}
+.portfolio-container {
+  width: 1170px;
+  background-color: var(--acent-color-for-containers);
+  margin: 94px auto;
 }
