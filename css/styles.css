@@ -536,10 +536,10 @@ body {
   margin-bottom: 0px;
   padding-left: 0px;
 }
-.images-second-list-item:not(:last-child) {
+.images-list-2__item:not(:last-child) {
   margin-right: 30px;
 }
-.card {
+.images-list-2__card {
   background: var(--acent-color-for-containers);
   width: 270px;
   height: 428px;
@@ -552,14 +552,14 @@ body {
   width: 270px;
   height: 260px;
 }
-.card-name {
+.card__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.card-name__description {
+.card__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
