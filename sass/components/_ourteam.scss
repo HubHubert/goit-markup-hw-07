@@ -83,7 +83,7 @@
   &__item:hover,
   &__item:focus {
     background-color: $second-main-text-color;
-    --color3: $acent-color-text;
+    --color3: #{$acent-color-text};
     transition: transform 250ms ease;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }

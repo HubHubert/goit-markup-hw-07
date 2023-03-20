@@ -105,7 +105,7 @@
   &__links:hover,
   &__links:focus {
     color: $second-main-text-color;
-    --color1: $second-main-text-color;
+    --color1: #{$second-main-text-color};
   }
   &__icon--elvelope {
     width: 16px;

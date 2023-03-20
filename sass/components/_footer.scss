@@ -76,13 +76,13 @@
     cursor: pointer;
   }
   &__item {
-    --color2: var(--acent-color-text);
+    --color2: $acent-color-text;
     background-color: $icons-bg-color;
   }
 
   &__item:hover,
   &__item:focus {
-    --color3: var(--acent-color-text);
+    --color3: #{$acent-color-text};
     background-color: $second-main-text-color;
     transition: transform 250ms ease;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -92,28 +92,24 @@
   }
 
   &__instagram {
-    --color3: var(--acent-color-text);
     width: 20px;
     height: 20px;
     margin: auto;
   }
 
   &__twitter {
-    --color3: var(--acent-color-text);
     width: 20px;
     height: 20px;
     margin: auto;
   }
 
   &__facebook {
-    --color3: var(--acent-color-text);
     width: 20px;
     height: 20px;
     margin: auto;
   }
 
   &__linkedin {
-    --color3: var(--acent-color-text);
     width: 20px;
     height: 20px;
     margin: auto;
